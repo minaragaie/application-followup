@@ -35,8 +35,8 @@ $person = $_POST['person'];
 
 	<?php
 	// Print 10 times
-	for ($i=10; $i<0; $i++) {
-		echo '<p>'+$lipsum+'</p>';
+	for ($i=10; $i>0; $i--) {
+		echo '<p>'.$lipsum.'</p>';
 	}
 	?>
 
