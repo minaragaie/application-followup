@@ -68,11 +68,12 @@ $person = $_POST['person'];
 			</tr>
 		</thead>
 		<tbody>
-			<?php foreach ($people as $person): ?>
+			<?php foreach ($people as $person): ?> 
+				<!-- using '->' means that we are going to access an object, not an array. -->
 				<tr>
-					<td><?=$person->first_name;?></td>
-					<td><?=$person->last_name;?></td>
-					<td><?=$person->email;?></td>
+					<td><?=$person['first_name'];?></td>
+					<td><?=$person['last_name'];?></td>
+					<td><?=$person['email'];?></td>
 				</tr>
 			<?php endforeach; ?>
 		</tbody>
