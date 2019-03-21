@@ -2,7 +2,8 @@
 
 class Interview
 {
-	public $title = 'Interview test';
+	static public $title = 'Interview test';
+	// To add a static property to a class, we should use the static keyword 
 }
 
 $lipsum = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus incidunt, quasi aliquid, quod officia commodi magni eum? Provident, sed necessitatibus perferendis nisi illum quos, incidunt sit tempora quasi, pariatur natus.';
